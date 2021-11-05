@@ -28,7 +28,7 @@ HUE_USERNAME=<hue secret username>
 # Running as Quarkus dev
 
 ```
-mvn clean generate-resources quarkus:dev
+mvn clean generate-sources quarkus:dev
 ```
 
 # Initial setup
