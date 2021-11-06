@@ -58,3 +58,13 @@ You can use an utility API which will spawn a Swing JFrame to set new boundaries
 ![areaAPIboundaries](docs/areaAPIboundaries.png)
 
 The same utility API can reset the boundaries at the top-left corner of the screen, while the application is still running.
+
+# Simulation testing 🙊
+
+As the best dirty hacks, this application does not provide (yet?) solid unit or integration testing.
+
+However, one can always perform end-to-end (E2E) simulation testing by running this application,
+opening a past live-stream on YouTube,
+and use the browser's Developer Tools to simulate the commands by rewriting a random user's comment in the live-chat replay on the side.
+
+![simulation](docs/simulation.png)
